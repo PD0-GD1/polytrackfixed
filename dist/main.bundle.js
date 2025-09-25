@@ -1,4 +1,8 @@
 (() => {
+	if ('serviceWorker' in navigator) {
+  		navigator.serviceWorker.register('/service-worker.js')
+    		.then(() => console.log('Service Worker Registered'));
+	}
 	var e = {
 			23: (e, t, i) => {
 				var n;
