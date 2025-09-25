@@ -1,0 +1,9 @@
+{
+  "name": "Poly Track",
+  "short_name": "PolyTrack",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF00FF",
+  ]
+}
